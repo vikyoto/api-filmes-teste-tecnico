@@ -7,7 +7,6 @@ API em Node.js + Express que consome a API de metadados de filmes e expõe a rot
 ```bash
 npm install
 npm start          # http://localhost:3000/filmes
-npm test           # testes unitários e de rota (node:test)
 
 ```
 
