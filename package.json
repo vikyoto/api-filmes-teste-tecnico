@@ -1,0 +1,19 @@
+{
+  "name": "api-filmes",
+  "version": "1.0.0",
+  "description": "API que consome metadados de filmes e retorna os filmes parseados na rota /filmes",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "MIT"
+}
